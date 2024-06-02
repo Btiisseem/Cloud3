@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section id="header">
+    <a href="#"><img src="asset/img/secretglowlogo.png" class="logo" alt="logo" /></a>
+    <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="klanten.html">Klanten</a></li>
+        <li>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+        </li>
+    </ul>
+    <section id="zoekbalk"><input type="text" placeholder="Zoeken...">
+    <a href="#"><i class="fas fa-search"></i></a></section>
+</section>
+<section id="Product1" class="section-p1">
+  <h2>ONZE PRODUCTEN</h2>
+  <p>Enkel natuurlijke producten</p>
+  <section class="pro-container">
+
+    <section class="pro">
+      <img src="asset/img/baardolie.png" alt="" />
+      <section class="des">
+        <span>Baardolie</span>
+        <h5>Verrijk je baard met onze luxe baardolie voor een verzorgde, gezonde glans en een onweerstaanbare geur.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>25,00€</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Baardolie', 25.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/frambozenlipbalsem.jpg" alt="">
+      <section class="des">
+        <span>Frambozenlipbalsem</span>
+        <h5>Verwen je lippen met de heerlijke zachtheid van onze natuurlijke frambozen lipbalsem, een smaakvolle traktatie die hydrateert en beschermt.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>5,00€</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Frambozenlipbalsem', 5.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product2.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/kokosnootolie.jpeg" alt="">
+      <section class="des">
+        <span>Kokosnootolie</span>
+        <h5>Laat jezelf onderdompelen in de weelderige hydratatie van onze hoogwaardige kokosnootolie, een veelzijdig natuurlijk product dat je huid en haar voedt met een exotische en verfrissende flair.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>16,00€</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Kokosnootolie', 16.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product3.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/castorolie.webp" alt="">
+      <section class="des">
+        <span>Castorolie</span>
+        <h5>Verrijk je dagelijkse schoonheidsroutine met de puurheid van castorolie, een natuurlijke weldaad voor huid en haar.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>16,00 €</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Castorolie', 16.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product4.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/henna.jpg" alt="">
+      <section class="des">
+        <span>Natuurlijke henna haarkleuring</span>
+        <h5>Transformeer je haarkleur op een natuurlijke en betoverende manier met onze natuurlijke henna haarkleuring. Verrijkt met de kracht van pure henna, biedt deze haarkleuring levendige tinten en een gezonde glans, zonder schadelijke chemicaliën.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>15,00 €</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Henna haarkleuring', 15.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product5.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/munttandpasta.jpg" alt="">
+      <section class="des">
+        <span>Natuurlijke munttandpasta</span>
+        <h5>Ervaar de verfrissende sensatie van onze natuurlijke munttandpasta, een verkwikkende formule die zorgt voor een grondige reiniging en langdurige frisheid. Verrijkt met natuurlijke ingrediënten, biedt deze tandpasta een effectieve mondverzorging zonder synthetische toevoegingen.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>8,00€</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Munttandpasta', 8.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product6.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/zonnecremevoorkinderen.png" alt="">
+      <section class="des">
+        <span>Natuurlijke Zonnecreme</span>
+        <h5>Bescherm je huid op een natuurlijke wijze tegen de zon met onze natuurlijke zonnecrème. Met een zorgvuldig samengestelde formule van biologische ingrediënten biedt deze crème effectieve bescherming tegen schadelijke UV-stralen, terwijl het de huid hydrateert en voedt.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>10,00€</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Zonnecreme', 10.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product7.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/curucumahuidmasker.webp" alt="">
+      <section class="des">
+        <span>Curcuma huidmasker</span>
+        <h5>Verwen je huid met de genezende kracht van onze natuurlijke curcuma huidmasker. Doordrenkt met zuivere curcumine, biedt dit masker een diepe reiniging en revitalisatie, terwijl het de huid voedt en een gezonde gloed bevordert.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>13 €</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Curcuma huidmasker', 13.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product8.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/honinghaarmasker.png" alt="">
+      <section class="des">
+        <span>Honing haarmasker</span>
+        <h5>Verwen je lokken met ons natuurlijke honinghaarmasker, doordrenkt met de zoete weldaad van pure honing. Deze weelderige formule hydrateert en voedt je haar diep, waardoor het zijdezacht en glanzend wordt. Ontdek de natuurlijke kracht van honing voor gezond en stralend haar.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>13,00€</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Honing haarmasker', 13.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product9.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/arganolie.jpg" alt="">
+      <section class="des">
+        <span>Arganolie</span>
+        <h5>Verzorg je haar en huid met de luxueuze zachtheid van onze natuurlijke arganolie. Deze kostbare olie, rijk aan voedingsstoffen, hydrateert diep en herstelt de natuurlijke glans.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>16€</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Arganolie', 16.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product10.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/aloeverragel.jpg" alt="">
+      <section class="des">
+        <span>Aloeverragel</span>
+        <h5>Verfris en kalmeer je huid met onze natuurlijke aloëveragel. Doordrenkt met de hydraterende en verzachtende eigenschappen van aloë vera, biedt deze gel verlichting aan de huid, herstelt het vochtbalans en bevordert een gezonde uitstraling.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>13€</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Aloeverragel', 13.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product11.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+    <section class="pro">
+      <img src="asset/img/essentielegemberolie.webp" alt="">
+      <section class="des">
+        <span>Essentiële gemberolie</span>
+        <h5>Laat de opwekkende en verwarmende geur van onze essentiële gemberolie je zintuigen omhullen. Met zijn krachtige en aromatische eigenschappen is deze olie perfect voor ontspanning en verlichting.</h5>
+        <section class="star">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </section>
+        <h4>25 €</h4>
+      </section>
+      <section class="heart">
+        <i class="fas fa-heart"></i>
+      </section>
+      <button class="cart-button" onclick="addToCart('Essentiële gemberolie', 25.00)">
+        <i class="fas fa-shopping-cart"></i> Toevoegen aan winkelmand
+      </button>
+      <a href="product12.html" class="product-overview-button">Naar product overzicht</a>
+    </section>
+
+  </section>
+</section>
+
+<aside id="cart-container">
+  <h2>Winkelmand</h2>
+  <ul id="cart-list"></ul>
+  <p id="total-price"></p>
+</aside>
+<script src="js/winkelmand.js"></script>
+<script src="js/favorietens.js"></script>
+<footer>
+  <section class="footer-content">
+    <section class="logo-section">
+      <img src="asset/img/secretglowlogo.png" alt="Bedrijfslogo">
+    </section>
+    <section class="payment-section">
+      <p>Betaal veilig met:</p>
+      <img src="asset/img/betaalmiddelen.png" alt="Betaalmethoden">
+    </section>
+  </section>
+  <section class="app-download">
+    <p>Download onze app</p>
+    <img src="asset/img/playstore.jpg" alt="Play Store">
+    <img src="asset/img/appstore.jpg" alt="App Store">
+  </section>
+  <p class="copyright">© 2023 SecretGlow. Alle rechten voorbehouden.</p>
+</footer>
+
+</body>
+
+</html>

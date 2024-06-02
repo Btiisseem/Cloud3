@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+
+<body>
+    <section id="header">
+        <a href="#"><img src="asset/img/secretglowlogo.png" class="logo" alt="logo" /></a>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="klanten.html">Klanten</a></li>
+            <li>
+                <a href=""><i class="fas fa-shopping-cart"></i></a>
+            </li>
+        </ul>
+        <section id="zoekbalk"><input type="text" placeholder="Zoeken...">
+            <a href="#"><i class="fas fa-search"></i></a></section>
+    </section>
+
+    <section class="contact-container">
+        <section class="contact-inner-container">
+            <section class="contact-info-container">
+                <h1 class="contact-heading">Vragen of opmerkingen?</h1>
+                <p class="contact-description">
+                    Contacteer ons op volgende gegevens of laat een bericht achter en we antwoorden zo snel mogelijk!
+                </p>
+                <hr class="line">
+                <section class="contact-details">
+                    <h3><i class="fa fa-map-marker"></i> Address</h3>
+                    <p>Nieuwstraat 131, 1000 BRUSSEL</p>
+                </section>
+                <hr class="line" />
+                <section class="contact-details">
+                    <h3><i class="fa fa-envelope"></i> Email</h3>
+                    <p>contact@SecretGlow.be</p>
+                </section>
+                <hr class="line" />
+                <section class="contact-details">
+                    <h3><i class="fa fa-phone"></i>Telefoon-nummer</h3>
+                    <p>0223734</p>
+                </section>
+                <hr class="line" />
+                <section class="social-link-container">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </section>
+            </section>
+
+            <section class="contact-form">
+                <form class="form">
+                    <section class="form-group">
+                        <input type="text" name="name" class="input-field form-input" placeholder="Name" />
+                    </section>
+                    <section class="form-group">
+                        <input type="email" name="email" class="input-field form-input" placeholder="Email" />
+                    </section>
+                    <section class="form-group">
+                        <textarea name="message" rows="5" class="input-field form-input" placeholder="Message"></textarea>
+                    </section>
+                    <section class="form-group">
+                        <input type="submit" class="input-field submit-btn" value="Submit" />
+                    </section>
+                </form>
+            </section>
+
+            <section id="map"></section>
+        </section>
+    </section>
+
+    <footer>
+        <section class="footer-content">
+            <section class="logo-section">
+                <img src="asset/img/secretglowlogo.png" alt="Bedrijfslogo">
+            </section>
+            <section class="payment-section">
+                <p>Betaal veilig met:</p>
+                <img src="asset/img/betaalmiddelen.png" alt="Betaalmethoden">
+            </section>
+        </section>
+        <section class="app-download">
+            <p>Download onze app</p>
+            <img src="asset/img/playstore.jpg" alt="Play Store">
+            <img src="asset/img/appstore.jpg" alt="App Store">
+        </section>
+        <p class="copyright">© 2023 SecretGlow. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/map.js" defer></script>
+</body>
+
+</html>
