@@ -1,7 +1,7 @@
-version: '3'
+version: '3.9'
 services:
   php:
-    build: .
+    image: btiisseem018/my-php-apache-app
     ports:
       - "80:80"
     volumes:
@@ -10,3 +10,4 @@ services:
     image: mysql:latest
     environment:
       MYSQL_ROOT_PASSWORD: Ibtissam
+      MYSQL_DATABASE: backend
